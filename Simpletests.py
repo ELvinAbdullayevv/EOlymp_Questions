@@ -53,10 +53,37 @@
 # else:
 #     print("NO")
 
+# 923
+# season = int(input())
+# if season >= 3 and season <= 5:
+#     print("Spring")
+# elif season >= 6 and season <= 8:
+#     print("Summer")
+# elif season >= 9 and season <= 11:
+#     print("Autumn")
+# else:
+#     print("Winter")
 
+# 931
+# a = int(input())
+# digit = 0
+# product = 1
+# while a > 0:
+#     b = a % 10
+#     product *= b
+#     digit += b
+#     a = a // 10
+# print('{:.3f}'.format((product / digit)))
 
-
-
+# # 932
+# import math
+#
+# s, a = map(float,input().split())
+#
+# d = a*a + 8*s;
+#
+# h = (-a + math.sqrt(d)) / 2;
+# print("%.2f" %h)
 
 
 
