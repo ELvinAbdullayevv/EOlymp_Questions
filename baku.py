@@ -77,3 +77,33 @@
 #     if n % 2 != 0:
 #         print((n // 2)+1)
 
+# 9904
+# n = int(input())
+# if n % 2 == 0:
+#     print(n // 2)
+# else:
+#     if n % 2 != 0:
+#         print((n // 2))
+
+# 9905
+# n = int(input())
+# if n % 2 == 0:
+#      print((n // 2)-1)
+# else:
+#      if n % 2 != 0:
+#         print((n // 2))
+
+
+# 9906
+# a,b = map(int, input().split())
+# if a or b < o:
+#     print(abs(a-b)+1)
+# else:
+#     print(a-b)
+
+
+
+
+
+
+
