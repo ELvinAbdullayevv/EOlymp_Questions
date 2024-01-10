@@ -102,7 +102,15 @@
 #     print(a-b)
 
 
+# Region 3
+# a = str(input("Sozler daxil edin "))
+# b = a.split()
+# c = []
+# for words in  b:
+#     if words not in c:
+#         c.append(words)
 
+# print(c)
 
 
 
