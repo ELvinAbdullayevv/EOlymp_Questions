@@ -112,6 +112,49 @@
 
 # print(c)
 
+# Region 1
+# num = int(input("Enter number "))
+# factorial = 1
+# if num == 0:
+#     print("factorial is 1 for 0")
+# elif num < 0:
+#     print("factorial does not exit negative numbers")
+# else:
+#     for i in range(1, num+1):
+#         factorial *= i
+#     print(factorial)
+
+
+# Region 2
+# word_list = str(input("Sozleri daxil edin "))
+# b = word_list.split()
+
+# palindrome = []
+# non_polindrome = []
+
+# for words in b:
+#     if words == words[::-1]:
+#         palindrome.append(words)
+#     else:
+#         non_polindrome.append(words)
+
+# print(palindrome)
+# print(non_polindrome)
+
+
+# Region 4
+# number = int(input("ededi daxil edin "))
+
+# num = []
+
+# i = 1
+
+# for i in range(1, number+1):
+#     if number % i == 0:
+#         num.append(i)
+# print(num)
+
+
 
 
 
