@@ -174,5 +174,27 @@
 #         print(f"{number} is not a prime number.")
 
 
+# Region5
+# say = int(input())
+# #45
+
+# for i in str(say):
+#     if int(i) % 2 == 0:
+#         print(i , 'cut')
+#     else:
+#         print(i , 'tek')
+
+# TASK
+# a = int(input("ededi daxil edin "))
+
+# count = 0
+# for i in range(1, a):
+#     if a % i == 0:
+#         count += i
+
+# if count == a:
+#     print("this number is perfect")
+# else:
+#     print("UNFORTUNATELLY")
 
 
