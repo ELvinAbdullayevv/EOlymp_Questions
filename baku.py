@@ -197,4 +197,69 @@
 # else:
 #     print("UNFORTUNATELLY")
 
+# TASK 1
+# a = list(input().split())
 
+# a.sort(key = len)
+
+
+# for word in a:
+#     print(word)
+
+
+# TASK
+# a = int(input("ededi daxil edin "))
+
+# count = 0
+# for i in range(1, a):
+#     if a % i == 0:
+#         count += i
+
+# if count == a:
+#     print("this number is perfect")
+# else:
+#     print("UNFORTUNATELL")
+
+# perfect_number = [i for i in range(1 , say) if say % i ==0]
+# # for i in range(1 , say):
+# #     if say % i == 0 :
+# #         perfect_number.append(i)
+# if sum(perfect_number)==say:
+#     print('This number is perfect')
+# else:
+#     print('Is not perfect number')
+
+
+# number = int(input("ededi daxil edin "))
+
+# if number > 1:
+#     for i in range(2, number):
+#         if number % i == 0:
+#             print("No")
+#             break
+#     else:
+#         print("Yes")
+
+# else:
+#     print("No")
+
+# ----
+
+# number = int(input("ededi daxil edin "))
+# count = 2
+
+# if number == 4:
+#       count+=1
+
+
+# halfNum = int(number/2)
+
+# for i in range(2, halfNum):
+#         if number % i == 0:
+#             count+=1
+#             break
+
+# if count == 2:
+#      print("Yes")
+# else :
+#      print("No")
