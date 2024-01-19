@@ -85,6 +85,19 @@
 # h = (-a + math.sqrt(d)) / 2;
 # print("%.2f" %h)
 
+# 909
+# a = str(input())
+# res = len(a.split())
+# print(str(res))
+
+# a = str(input())
+
+# words = a.split()
+# count = 0
+# for word in words:
+#     count += 1
+# print(count)  
+
 
 
 
