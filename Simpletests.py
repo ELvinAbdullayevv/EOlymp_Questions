@@ -96,7 +96,47 @@
 # count = 0
 # for word in words:
 #     count += 1
-# print(count)  
+# print(count)
+
+# 901
+# a = input("listi daxil edin")
+# b = ("*", "-", "+")
+
+# count = 0
+# for i in a[1::1]:
+#     if i in b:
+#       count +=1
+
+# print(count)
+
+
+# 8320
+# centence = str(input())
+# a = centence.title()
+# print(a)
+
+
+# 8569
+# centence = input()
+# a = len(centence)
+# print(centence)
+# print(a)
+
+# 8319
+# a ,c, b, = input().split(" ")
+# a = int(a)
+# b = int(b)
+
+
+# if c == ('+'):
+#         print(a+b)
+# elif c == ('-'):
+#         print(a-b)
+# elif c == ('*'):
+#         print(a*b)
+# elif c == ("/"):
+#         print(a // b)
+
 
 
 
