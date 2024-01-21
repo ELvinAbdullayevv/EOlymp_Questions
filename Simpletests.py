@@ -138,6 +138,14 @@
 #         print(a // b)
 
 
+# 920
+# def number(x,y,z):
+#     decimal_num = min(max(x,y), max(y,z), x+y+z)
+#     return "{:.2f}".format(decimal_num)
+
+# x,y,z = map(float,input().split())
+# print(number(x,y,z))
+
 
 
 
