@@ -229,3 +229,48 @@
 
 # a = abs(int(input()))
 # print(calculation(a))
+
+# 1658
+# def factoriyal(x):
+#     if x > 0:
+#         return x * factoriyal(x-1)
+#     if x == 0:
+#         return 1
+#     else:
+#         False
+
+# a = int(input())
+# print(factoriyal(a))
+
+
+# 3258
+# def Fibonacci(n):
+
+
+#     if n == 0:
+#         return 0
+
+#     elif n == 1 or n == 2:
+#         return 1
+
+#     else:
+#         return Fibonacci(n-1) + Fibonacci(n-2)
+
+# input_fibanocci = int(input())
+# print(Fibonacci(input_fibanocci))
+
+
+# 8609
+
+# def rekursiya(n):
+#     if n == 0:
+#         return 0
+
+#     elif n > 0:
+#         return rekursiya(n-1) + n
+
+#     else:
+#         False
+
+# number = int(input())
+# print(rekursiya(number))
