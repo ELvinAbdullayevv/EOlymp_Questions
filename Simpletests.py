@@ -147,5 +147,85 @@
 # print(number(x,y,z))
 
 
+# 8681
+# def product_num(a):
+#     b=1
+#     for i in str(a):
+#         digit =int(i)
+#         if digit !=0:
 
 
+#             b *= digit
+#     print(b)
+
+# a = input()
+
+# product_num(a)
+
+# 8679
+# size = int(input())
+# arr = map(int, input().split())
+
+# c = []
+# def min_custom(arr):
+
+#     for num in arr:
+#         if num % 3 == 0:
+#             c.append(num // 3)
+
+
+#         else:
+#             c.append(num)
+#     print(*c)
+
+
+# min_custom(arr)
+
+# 8689
+# def f_x(a):
+#     c = 1+a+a**2
+#     return c
+
+# a = int(input())
+# print(f_x(a))
+
+
+# 8690
+
+# def calculation(x, y, z):
+#     f = x*y*z + x + y**2 + z**3
+#     return f
+
+# a, b, c = map(int, input().split())
+# print(calculation(a,b,c))
+
+
+# 2
+# def digit(a):
+#     b = str(a)
+#     return len(b)
+
+# a = int(input())
+# print(digit(a))
+
+
+# 1601
+# def ebob(x, y):
+#     while y:
+#         x , y = y, x % y
+#     return x
+# a,b = map(int, input().split())
+# print(ebob(a,b))
+
+
+# 1603
+# def calculation(x):
+#     c = 0
+#     while x > 0:
+#         digit = int(x % 10)
+#         c += digit
+#         x = x // 10
+#     return c
+
+# a = abs(int(input()))
+# print(calculation(a))
