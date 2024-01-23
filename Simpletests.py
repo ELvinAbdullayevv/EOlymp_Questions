@@ -274,3 +274,13 @@
 
 # number = int(input())
 # print(rekursiya(number))
+
+
+# a = abs(int(input()))
+#
+# c = a % 10
+# d = a // 100
+# if c > d:
+#     print(c)
+# else:
+#     print(d)
