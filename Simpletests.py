@@ -284,3 +284,68 @@
 #     print(c)
 # else:
 #     print(d)
+
+# 494
+# a = input().upper()
+
+# Vowel_letters = ["A", "E", "I", "O", "U", "Y"]
+# count = 0
+
+# for i in a:
+#     if i in Vowel_letters:
+#         count += 1
+
+# print(count)
+
+
+# 138
+# number = int(input())
+# denomination =[500,200,100,50,20,10]
+# count = 0
+# for i in denomination:
+
+#     c= number//i
+#     number = number%i
+#     count+=c
+
+# print(count)
+
+
+# 7831
+# def variables(x):
+
+#     max_element = max(x)
+#     sum = 0
+#     for i in x:
+#         if i != max_element:
+#             sum += i
+#     print(sum)
+# a = int(input())
+# b = list(map(int,input().split()))
+# variables(b)
+
+
+# 8631
+# a = str(input())
+# count = 0
+
+# for i in a:
+#     c = max(a)
+#     if i == c:
+#         count += 1
+# print(count)
+
+
+# 5089
+# n = int(input())
+
+# c = []
+# for i in range(n):
+#     word = input()
+#     c.append(word)
+
+# a = sorted(c)
+
+# for word in a:
+#     print(word)
+
