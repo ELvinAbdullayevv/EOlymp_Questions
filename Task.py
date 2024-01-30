@@ -33,14 +33,29 @@
 
 # EBOB TASK
 
-def abc():
-    b = input("eded daxil edin")
+# def abc():
+#     b = input("eded daxil edin")
+#
+#     try:
+#         b = float(b)
+#         print("{}".format(round(b)))
+#     except:
+#         print("{} bu variable errordur".format(b))
+#
+#
+# print(abc())
 
-    try:
-        b = float(b)
-        print("{}".format(round(b)))
-    except:
-        print("{} bu variable errordur".format(b))
+
+luget = {
+    'meyve' : 'fruit' ,
+    'kitab' : 'book' ,
+    'komputer' : 'computer' ,
+    'masa' : 'desk' ,
+    'qelem' : 'pen' ,
+}
+deleted_word = input()
 
 
-print(abc())
+if deleted_word in luget:
+        del luget[deleted_word]
+print(luget)
