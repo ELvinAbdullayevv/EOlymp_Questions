@@ -92,3 +92,40 @@
 #     if i % 3 == 0:
 #         dict2.append(i)
 # print(sorted(dict2))
+
+import sys
+
+notebook1 = {"Created": "Vince Gilligan",
+              "Series name": "Breaking bad",
+              "Genre": "Crime drama",
+              "Episodes": "62",
+              "Release": "20 January 2008",
+              "Seasons": 5}
+
+notebook2 = {"Created": "Jantje Friese",
+              "Series name": "Dark",
+              "Genre": "Science fiction",
+              "Episodes": "26",
+              "Release": "01 December 2017",
+              "Seasons": 3}
+
+notebook3 = {"Created": "Robert Kirkman",
+              "Series name": "The Walking Dead",
+              "Genre": "Horror",
+              "Episodes": "153",
+              "Release": "31 October 2010",
+              "Seasons": 10}
+
+notebooks = [notebook1, notebook2, notebook3]
+
+def find_creator_and_series_name():
+    if len(sys.argv) > 2:  # You need to check if there are at least 2 command-line arguments
+        director = sys.argv[1]
+        movie_name = sys.argv[2]
+
+        for notebook in notebooks:
+            for key, value in notebook.items():
+                if value == director or value == movie_name:
+                    print(f"{key}: {value}")
+
+find_creator_and_series_name()
