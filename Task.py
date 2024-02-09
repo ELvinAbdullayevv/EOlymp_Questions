@@ -93,39 +93,91 @@
 #         dict2.append(i)
 # print(sorted(dict2))
 
-import sys
+# import sys
+#
+# notebook1 = {"Created": "Vince Gilligan",
+#               "Series name": "Breaking bad",
+#               "Genre": "Crime drama",
+#               "Episodes": "62",
+#               "Release": "20 January 2008",
+#               "Seasons": 5}
+#
+# notebook2 = {"Created": "Jantje Friese",
+#               "Series name": "Dark",
+#               "Genre": "Science fiction",
+#               "Episodes": "26",
+#               "Release": "01 December 2017",
+#               "Seasons": 3}
+#
+# notebook3 = {"Created": "Robert Kirkman",
+#               "Series name": "The Walking Dead",
+#               "Genre": "Horror",
+#               "Episodes": "153",
+#               "Release": "31 October 2010",
+#               "Seasons": 10}
+#
+# notebooks = [notebook1, notebook2, notebook3]
+#
+# def find_creator_and_series_name():
+#     if len(sys.argv) > 2:  # You need to check if there are at least 2 command-line arguments
+#         director = sys.argv[1]
+#         movie_name = sys.argv[2]
+#
+#         for notebook in notebooks:
+#             for key, value in notebook.items():
+#                 if value == director or value == movie_name:
+#                     print(f"{key}: {value}")
+#
+# find_creator_and_series_name()
 
-notebook1 = {"Created": "Vince Gilligan",
-              "Series name": "Breaking bad",
-              "Genre": "Crime drama",
-              "Episodes": "62",
-              "Release": "20 January 2008",
-              "Seasons": 5}
 
-notebook2 = {"Created": "Jantje Friese",
-              "Series name": "Dark",
-              "Genre": "Science fiction",
-              "Episodes": "26",
-              "Release": "01 December 2017",
-              "Seasons": 3}
 
-notebook3 = {"Created": "Robert Kirkman",
-              "Series name": "The Walking Dead",
-              "Genre": "Horror",
-              "Episodes": "153",
-              "Release": "31 October 2010",
-              "Seasons": 10}
+Task1
+number1 = input()
+number2 = input()
+calculation = input()
 
-notebooks = [notebook1, notebook2, notebook3]
 
-def find_creator_and_series_name():
-    if len(sys.argv) > 2:  # You need to check if there are at least 2 command-line arguments
-        director = sys.argv[1]
-        movie_name = sys.argv[2]
+def calculator(func):
+    def calc_progress(a, b):
+        a = int(a)
+        b = int(b)
+        if a == 0 or b == 0:
+            print("The result equal to 0")
+            return
+        else:
+            print("Calculating...")
+            return func(a, b)
 
-        for notebook in notebooks:
-            for key, value in notebook.items():
-                if value == director or value == movie_name:
-                    print(f"{key}: {value}")
+    return calc_progress
 
-find_creator_and_series_name()
+
+@calculator
+def plus(a, b):
+    print(a + b)
+
+
+@calculator
+def multiply(a, b):
+    print(a * b)
+
+
+@calculator
+def division(a, b):
+    print(a / b)
+
+
+@calculator
+def minus(a, b):
+    print(a - b)
+
+
+match calculation:
+    case "+":
+        plus(number1, number2)
+    case "-":
+        minus(number1, number2)
+    case "/":
+        division(number1, number2)
+    case "*":
+        multiply(number1, number2)
